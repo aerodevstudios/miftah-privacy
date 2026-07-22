@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Miftah Privacy Policy for the Android app."
+    />
+    <title>Miftah Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #080808;
+        --card: #171719;
+        --border: #303034;
+        --text: #f6f6f4;
+        --muted: #a5a5aa;
+        --gold: #c6a66a;
+        --blue: #5e9bff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        line-height: 1.65;
+      }
+
+      main {
+        width: min(100%, 820px);
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      header {
+        margin-bottom: 32px;
+      }
+
+      .brand {
+        margin: 0 0 28px;
+        color: var(--text);
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 5.2px;
+        line-height: 1.4;
+      }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        color: var(--gold);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        color: var(--text);
+        font-size: clamp(32px, 8vw, 52px);
+        line-height: 1.05;
+        letter-spacing: 0;
+      }
+
+      .updated {
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .policy {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: clamp(20px, 5vw, 36px);
+      }
+
+      section + section {
+        margin-top: 34px;
+        padding-top: 28px;
+        border-top: 1px solid var(--border);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        color: var(--text);
+        font-size: 22px;
+        line-height: 1.25;
+      }
+
+      p {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 16px;
+      }
+
+      ul {
+        margin: 0 0 14px;
+        padding-left: 22px;
+        color: var(--muted);
+      }
+
+      li {
+        margin: 6px 0;
+      }
+
+      a {
+        color: var(--blue);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .contact {
+        color: var(--text);
+        font-weight: 700;
+      }
+
+      footer {
+        margin-top: 28px;
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="brand">MIFTAH</p>
+        <p class="eyebrow">Privacy Policy</p>
+        <h1>Miftah Privacy Policy</h1>
+        <p class="updated">Effective date: July 22, 2026</p>
+      </header>
+
+      <article class="policy">
+        <section>
+          <h2>Overview</h2>
+          <p>
+            This privacy policy explains how Miftah handles data in the Android
+            app.
+          </p>
+          <p>
+            Miftah helps users pause before opening selected distracting apps by
+            showing a short dhikr flow, a daily streak screen, an ayah for the
+            session, and an unlock screen.
+          </p>
+          <p>
+            Miftah is designed to keep protected app choices and devotional
+            activity local on the user's device.
+          </p>
+        </section>
+
+        <section>
+          <h2>Data Miftah Stores Locally</h2>
+          <p>Miftah may store the following data on your device:</p>
+          <ul>
+            <li>
+              App settings, such as language, dhikr count, pause length,
+              enabled dhikr types, and whether ayah or streak screens are
+              enabled.
+            </li>
+            <li>Protected app choices.</li>
+            <li>
+              Local unlock session state, including when the current unlock
+              window expires.
+            </li>
+            <li>Streak state and lightweight pause counters.</li>
+            <li>
+              Last shown ayah identifier, used to avoid immediate repetition.
+            </li>
+          </ul>
+          <p>This data is stored locally on your device and is not sold.</p>
+        </section>
+
+        <section>
+          <h2>Installed Apps And Protected Apps</h2>
+          <p>
+            Miftah may show a list of launchable apps installed on your device
+            so you can choose which apps to protect.
+          </p>
+          <p>
+            Your selected protected apps and app identifiers are stored locally
+            on your device. Miftah does not send your protected app names,
+            package IDs, installed app list, or raw app usage history to ads,
+            analytics, or external servers.
+          </p>
+        </section>
+
+        <section>
+          <h2>Android Accessibility Service</h2>
+          <p>
+            Miftah uses Android Accessibility only for its app protection
+            feature.
+          </p>
+          <p>
+            When you enable the Miftah Accessibility service, Miftah can detect
+            when one of your selected protected apps opens. If your unlock
+            session has expired, Miftah opens the dhikr pause flow before the
+            protected app unlocks.
+          </p>
+          <p>Miftah does not use Accessibility to read:</p>
+          <ul>
+            <li>Messages.</li>
+            <li>Passwords.</li>
+            <li>Keystrokes.</li>
+            <li>Form fields.</li>
+            <li>Screen text.</li>
+            <li>Personal conversations.</li>
+          </ul>
+          <p>
+            The Accessibility service is used only for the narrow purpose of
+            detecting selected app openings and starting the Miftah pause flow.
+          </p>
+        </section>
+
+        <section>
+          <h2>Quran, Dhikr, And Dua Content</h2>
+          <p>
+            Quran ayat, dhikr, and duas are stored locally in the app. Miftah
+            does not send your devotional content, viewed ayat, dhikr activity,
+            or duas to ad networks or analytics services.
+          </p>
+          <p>Sources:</p>
+          <ul>
+            <li>Arabic Quran text: Tanzil Project.</li>
+            <li>
+              English translation: Rowwad Translation Center via
+              QuranEnc/quran-api.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Advertising</h2>
+          <p>Miftah is free and supported by ads.</p>
+          <p>
+            Ads may be served by Google AdMob. Google AdMob may collect or use
+            data such as IP address, device identifiers, ad interactions,
+            diagnostics, and other ad serving signals according to Google's
+            policies.
+          </p>
+          <p>
+            Miftah does not send your protected app choices, installed app list,
+            app usage history, dhikr content, ayah content, or duas to AdMob.
+          </p>
+          <p>
+            Google's explanation of how it uses data from partner apps is
+            available here:
+            <a href="https://policies.google.com/technologies/partner-sites"
+              >Google partner sites policy</a
+            >.
+          </p>
+          <p>
+            Google Mobile Ads SDK data disclosure:
+            <a
+              href="https://developers.google.com/admob/android/privacy/play-data-disclosure"
+              >Google Mobile Ads SDK data disclosure</a
+            >.
+          </p>
+        </section>
+
+        <section>
+          <h2>Analytics</h2>
+          <p>Miftah does not currently use a separate analytics SDK.</p>
+          <p>
+            If analytics are added in the future, this policy will be updated
+            before release of that version.
+          </p>
+        </section>
+
+        <section>
+          <h2>Data Sharing</h2>
+          <p>Miftah does not sell personal data.</p>
+          <p>
+            Miftah does not share protected app choices, installed app lists,
+            package IDs, raw app usage history, dhikr content, ayah content, or
+            duas with third parties.
+          </p>
+          <p>
+            AdMob may process advertising-related data as described in Google's
+            policies.
+          </p>
+        </section>
+
+        <section>
+          <h2>Data Security</h2>
+          <p>
+            Local app data is stored on your device using app storage.
+            Advertising data handled by Google AdMob is handled according to
+            Google's SDK and service policies, including encryption in transit
+            where described by Google.
+          </p>
+        </section>
+
+        <section>
+          <h2>Children's Privacy</h2>
+          <p>
+            Miftah is not designed specifically for children under 13. If the
+            target audience changes in a future release, this policy and the
+            app's ads setup will be reviewed for child-directed requirements.
+          </p>
+        </section>
+
+        <section>
+          <h2>Changes To This Policy</h2>
+          <p>
+            This privacy policy may be updated when app features, data handling,
+            ads, or third-party services change.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>
+            For privacy questions, contact:
+            <a class="contact" href="mailto:aerodev.studios@outlook.com"
+              >aerodev.studios@outlook.com</a
+            >
+          </p>
+        </section>
+      </article>
+
+      <footer>Miftah privacy policy</footer>
+    </main>
+  </body>
+</html>
